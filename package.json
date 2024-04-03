@@ -1,0 +1,27 @@
+{
+  "name": "pobnial-business-card",
+  "version": "1.0.1",
+  "description": "business card",
+  "main": "index.js",
+  "type": "module",
+  "bin": "./index.js",
+  "files": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "npm install",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "clear": "^0.1.0",
+    "enquirer": "^2.4.1",
+    "got": "^14.2.1",
+    "inquirer": "^9.2.17",
+    "open": "^10.1.0",
+    "terminal-image": "^2.0.0"
+  }
+}
